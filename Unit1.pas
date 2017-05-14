@@ -100,7 +100,7 @@ begin
   except
     on E: Exception do
     begin
-      ShowMessage('Error: ' + E.Message);
+      MessageDlg(E.Message, mtError, [mbok], 0);
     end;
   end;
 end;
@@ -162,7 +162,7 @@ begin
   except
     on E: Exception do
     begin
-      ShowMessage('Error: ' + E.Message);
+      MessageDlg(E.Message, mtError, [mbok], 0);
     end;
   end;
 end;
