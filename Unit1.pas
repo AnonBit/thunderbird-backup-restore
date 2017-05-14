@@ -208,9 +208,10 @@ procedure TForm_Main.FormCreate(Sender: TObject);
 //Uses System.IOUtils , System.UITypes
 begin
   if DirectoryExists(TPath.GetHomePath + TPath.DirectorySeparatorChar + 'Thunderbird') then
-
+     GroupBoxBackup.Enabled:=True
   else
   begin
+    GroupBoxBackup.Enabled:=False;
     MessageDlg(TPath.GetHomePath + TPath.DirectorySeparatorChar + 'Thunderbird' + sLineBreak + ' Does not exist', mtInformation, [mbok], 0)
   end
 end;

@@ -23,6 +23,7 @@ object Form_Main: TForm_Main
     Width = 481
     Height = 185
     Caption = 'Backup'
+    Enabled = False
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -135,7 +136,7 @@ object Form_Main: TForm_Main
       Caption = 'Existing Backup File'
       TabOrder = 0
       object ButtonBrowse: TButton
-        Left = 312
+        Left = 320
         Top = 48
         Width = 75
         Height = 25
