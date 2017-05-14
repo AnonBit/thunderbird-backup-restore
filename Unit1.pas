@@ -100,9 +100,7 @@ begin
   except
     on E: Exception do
     begin
-      Writeln('Exception: ', E.Message);
-      // Wait for the key to be pressed
-      Readln;
+        ShowMessage('Error: ' + E.Message);
     end;
   end;
 end;
@@ -164,9 +162,7 @@ begin
   except
     on E: Exception do
     begin
-      Writeln('Exception: ', E.Message);
-      // Wait for the key to be pressed
-      Readln;
+      ShowMessage('Error: ' + E.Message);
     end;
   end;
 end;
