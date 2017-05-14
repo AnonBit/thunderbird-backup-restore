@@ -1,2 +1,14 @@
-# thunderbird-backup-restore
-Mozilla Thunderbird backup mail and settings
+# Thunderbird Backup Restore
+Mozilla Thunderbird Backup Mail And Settings
+
+General
+=======
+
+![](http://i.imgur.com/esTHdLh.png)
+
+
+
+Copying
+=======
+
+MIT License
