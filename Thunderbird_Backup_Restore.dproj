@@ -99,7 +99,8 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Icon_MainIcon>Thunderbird_Backup_Restore_Icon.ico</Icon_MainIcon>
-        <VerInfo_Keys>CompanyName=https://github.com/AppoPro/thunderbird-backup-restore;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=https://github.com/AppoPro/thunderbird-backup-restore;LegalCopyright=https://github.com/AppoPro/thunderbird-backup-restore;LegalTrademarks=https://github.com/AppoPro/thunderbird-backup-restore;OriginalFilename=$(MSBuildProjectName).exe;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=https://github.com/AppoPro/thunderbird-backup-restore</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=https://github.com/AppoPro/thunderbird-backup-restore;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.1;InternalName=https://github.com/AppoPro/thunderbird-backup-restore;LegalCopyright=https://github.com/AppoPro/thunderbird-backup-restore;LegalTrademarks=https://github.com/AppoPro/thunderbird-backup-restore;OriginalFilename=$(MSBuildProjectName).exe;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.1;Comments=https://github.com/AppoPro/thunderbird-backup-restore</VerInfo_Keys>
+        <VerInfo_Build>1</VerInfo_Build>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
